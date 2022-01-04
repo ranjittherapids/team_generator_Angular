@@ -1,0 +1,66 @@
+.teanGenerator_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height:500px;
+    border: 1px solid gray;
+}
+.teanGenerator_container>h2{
+    margin:10px 5px ;
+}
+.team_name_box{
+    height: 300px;
+    width: 90%;
+    border: 1px solid gray;
+}
+.team_name_box>ul{
+text-decoration: none;
+list-style-type: none;
+
+}
+.team_name_box>ul>li{
+    text-decoration-style: none;
+}
+.add_team_box{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+}
+.add_team_box>input{
+    width: 70%;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 1px solid blue;
+}
+.add_team_box>button{
+    width: 70%;
+    padding: 5px 15px;
+    font-size: 1.5rem;
+margin-top: 10px;
+}
+.generate_team_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+    margin-top: 20px;
+}
+.generate_team_box>input{
+    width: 50%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-right:none;
+}
+.generate_team_box>button{
+    width: 20%;
+    padding: 10px 15px;
+    font-size: 1rem;
+border-left: none;
+}
